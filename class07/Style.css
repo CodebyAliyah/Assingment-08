@@ -1,0 +1,786 @@
+/*  Starting Css on navbar  */
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+.main {
+
+    box-shadow: -4px 1px 10px #ccc;
+    position: sticky;
+    top: 0px;
+    z-index: 100000;
+
+}
+
+.Logo {
+    text-decoration: none;
+    font-size: 15px;
+    color: #040404;
+    font-weight: bolder;
+    margin: 10px;
+
+}
+
+.li :hover {
+    color: #E16259;
+    transition-duration: 1s;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 90.98px;
+    height: 80px;
+
+}
+
+.navLinks {
+    list-style: none;
+
+
+}
+
+.li {
+    display: inline-flex;
+    margin-right: auto;
+    align-items: center;
+    transition: all;
+
+
+}
+
+sup {
+    text-decoration: none;
+    font-size: 15px;
+    color: #040404;
+    font-weight: 700px;
+    margin: 10px;
+
+}
+
+.OtherLinks {
+    margin-right: 90.98px;
+}
+
+.LogoPic {
+    position: relative;
+    top: 5px;
+}
+
+.Logotag {
+
+    margin: 10px;
+}
+
+strong {
+    margin: 10px;
+}
+
+.tryBtn {
+    background-color: #E16259;
+    color: white;
+    width: 124.23px;
+    height: 33px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13.5px;
+    font-weight: 700;
+
+
+}
+
+/*  Ending Css on navbar  */
+
+/*  Starting Home Section Css  */
+
+
+.cantainer {
+
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.RightBox {
+
+    width: 600.33px;
+    height: 337.2px;
+    padding: 50px;
+
+
+
+}
+
+.Maintxt {
+    width: 500.89px;
+    height: 139px;
+    font-size: 61px;
+    margin-bottom: 15px;
+    line-height: 65px;
+
+
+}
+
+.innertxt {
+    width: 381.67px;
+    height: 45px;
+    color: #00000099;
+    line-height: 24px;
+    margin-bottom: 15px;
+
+}
+
+.tryBtn2 {
+    background-color: #E16259;
+    color: white;
+    width: 147.23px;
+    height: 33px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13.5px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 8px;
+
+
+}
+
+.TrustedTxt {
+    color: #00000099;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.10125000029802322px;
+    margin-bottom: 10px;
+
+}
+
+.monograms {
+    display: flex;
+    gap: 20px;
+}
+
+
+/*  Ending Home Section Css  */
+
+
+/*  Starting Section 2 Css  */
+
+.cantainer2 {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.pc-Pic {
+    width: 860.95px;
+    height: 538.09px;
+    border-radius: 12px;
+
+}
+
+.TeamTxt {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: -0.6240000128746033px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.teamPara {
+
+    color: #00000099;
+
+}
+
+
+
+.cantainer3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tatoPic {
+    position: relative;
+    left: 10px;
+    width: 720.95px;
+    height: 500.09px;
+    overflow: hidden;
+    border-radius: 10px;
+    z-index: 1;
+
+}
+
+.smcantainer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 1315.44px;
+    height: 189px;
+
+
+}
+
+.BuildtBoxTxt {
+    width: 633.72px;
+    height: 189px;
+    padding: 0px, 33.72px, 0px, 0px;
+
+    align-items: center;
+    margin-left: 70px;
+
+
+}
+
+.Builth1 {
+    margin-bottom: 10px;
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.8496000170707703px;
+
+
+}
+
+.tryBtn3 {
+    background-color: #E16259;
+    color: white;
+    width: 147.23px;
+    height: 33px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13.5px;
+    font-weight: 700;
+    text-align: center;
+
+    padding-top: 8px;
+    margin-top: 20px;
+
+
+}
+
+.cantainer4 {
+
+
+
+
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+
+
+
+
+    margin-top: 100px;
+    width: 1210.44px;
+    height: 600px;
+
+
+
+
+}
+
+.listItems {
+
+
+
+    width: 250.86px;
+    height: 550px;
+
+
+}
+
+.Systempic {
+
+    width: 960px;
+    position: absolute;
+    right: 0px;
+}
+
+.Shelfbk {
+
+    margin-right: 50px;
+}
+
+.listNames {
+    margin-top: 50px;
+
+}
+
+.litags {
+
+    list-style: none;
+    line-height: 30px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+
+    letter-spacing: -0.012000000104308128px;
+
+
+}
+
+#litags {
+
+    list-style: none;
+    line-height: 40px;
+    margin-bottom: 95%;
+    font-size: 16px;
+    font-weight: 700;
+
+    letter-spacing: -0.012000000104308128px;
+
+
+}
+
+.listpara {
+    color: #00000099;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0.10125000029802322px;
+
+
+}
+
+.brline {
+
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+
+    width: 1210.44px;
+
+    border: 1px solid #0000001A;
+}
+
+.tampletebtn {
+
+
+
+
+
+    box-shadow: -2px 1px 4px #ccc;
+    color: black;
+    width: 147.23px;
+    height: 33px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13.5px;
+    font-weight: 700;
+    text-align: center;
+
+    padding-top: 8px;
+    margin-top: 20px;
+
+
+}
+
+.tampletes {
+
+    width: 1315.44px;
+    height: 287.05px;
+    gap: 0px;
+
+
+
+    margin: auto;
+
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Campany {
+    text-align: start;
+    margin-left: 25px;
+}
+
+.PreviousTag {
+    margin-left: 25px;
+}
+
+#Designdocs {
+    width: 114.83px;
+    height: 34.88px;
+
+
+    border-radius: 5px;
+    background-color: #0000000F;
+    padding-left: 10px;
+
+
+}
+
+
+.tampletebtn2 {
+
+
+
+
+
+    box-shadow: -2px 1px 4px #ccc;
+    color: black;
+    width: 242.39px;
+    height: 33px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13.5px;
+    font-weight: 700;
+    text-align: center;
+
+    padding-top: 8px;
+    margin-top: 20px;
+
+
+}
+
+.campanyCantainer {
+
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 1315.44px;
+    height: 208px;
+
+
+
+
+}
+
+.rahimItro {
+
+
+    width: 406.47px;
+    height: 72px;
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.13500000536441803px;
+    color: #00000099;
+
+
+
+
+}
+
+.rahimName {
+
+    color: #111111;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    margin-top: 10px;
+
+
+}
+
+.rahimface {
+    display: flex;
+    margin: 10px;
+    margin-left: -6px;
+
+}
+
+.rahimsirname {
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+
+    color: #00000099;
+
+}
+
+.MatchGroupbox {
+    width: 290.47px;
+    height: 184px;
+
+}
+
+.LoomBox {
+    width: 380.48px;
+    height: 208px;
+
+    margin-left: 30px;
+
+
+}
+
+.figmaBox {
+    width: 380.48px;
+    height: 208px;
+}
+
+.mgtop {
+
+    margin-bottom: 10px;
+}
+
+.LoomFace {
+
+    display: flex;
+    margin-top: 30px;
+    margin-left: -10px;
+
+}
+
+.FigmaFace {
+
+
+    display: flex;
+    margin-top: 10px;
+    margin-left: -6px;
+
+
+}
+
+
+
+
+
+
+.tryNotionTxt {
+
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.8496000170707703px;
+    text-align: center;
+
+}
+
+.TryNotionPic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1315.44px;
+    height: 377.5px;
+
+
+}
+
+.TrynotionPara {
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.15299999713897705px;
+    text-align: center;
+    color: #00000099;
+
+
+}
+
+.tryNPara {
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.15299999713897705px;
+    text-align: center;
+    color: #00000099;
+
+
+}
+
+.tryBtn4 {
+    background-color: #E16259;
+    color: white;
+    width: 200.23px;
+    height: 33px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13.5px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 8px;
+    text-align: center;
+    margin-top: 20px;
+
+
+}
+
+.TrynotionPara2 {
+
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.00800000037997961px;
+    text-align: center;
+    color: #00000099;
+
+
+
+}
+
+.ContantSales {
+    color: #00000099;
+}
+
+.sittingCharacter {
+
+    left: 150px;
+    top: -90px;
+    position: relative;
+}
+
+.brline2 {
+
+    position: relative;
+    top: -97px;
+
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+
+    width: 1210.44px;
+
+    border: 1px solid #0000001A;
+}
+
+.Footercantainer {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.FooterL {
+
+    list-style: none;
+
+    line-height: 30px;
+
+
+
+
+}
+
+#FooterLogo {
+
+    position: relative;
+    top: 2px;
+
+
+}
+
+#FooterAhead {
+
+    color: #040404;
+
+
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+
+
+
+
+}
+
+.FooterLists {
+
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #00000099;
+
+}
+
+.LastFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1212.44px;
+    height: 88px;
+    margin: auto;
+
+
+
+}
+
+.EnglishIcon{
+
+    display: inline-flex;
+    gap: 20px;
+}
+
+.EngIcons{
+    list-style: none;
+}
+
+.EngA{
+   
+font-size: 14px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0em;
+color: #040404;
+text-decoration: none;
+
+}
+
+#Year2022{
+
+  
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0.009100000374019146px;
+color: #00000099;
+
+
+}
+
+.IconsFooter{
+
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+/* Using Css Media Queries */
+
+@media ( max-width:786px){
+    #total-code{
+        max-width: 100%;
+    }
+}
